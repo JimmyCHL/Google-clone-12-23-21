@@ -33,6 +33,7 @@ const Header = () => {
             ref={searchInputRef}
             type="text"
             className="flex-1 w-full outline-none"
+            defaultValue={router.query.term}
           />
           <XIcon
             onClick={() => {
